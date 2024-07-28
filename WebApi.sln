@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.Data", "Infra.Data\In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.IoC", "Infra.IoC\Infra.IoC.csproj", "{7F3CFF8C-859B-4084-A4AB-DE1CA9EC9B13}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{449005E8-F2DA-4EF6-B439-3F19D2CBF22D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7F3CFF8C-859B-4084-A4AB-DE1CA9EC9B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F3CFF8C-859B-4084-A4AB-DE1CA9EC9B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F3CFF8C-859B-4084-A4AB-DE1CA9EC9B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{449005E8-F2DA-4EF6-B439-3F19D2CBF22D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{449005E8-F2DA-4EF6-B439-3F19D2CBF22D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{449005E8-F2DA-4EF6-B439-3F19D2CBF22D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{449005E8-F2DA-4EF6-B439-3F19D2CBF22D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

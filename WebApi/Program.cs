@@ -9,8 +9,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddInfrastructure();
+builder.Host.ConfigureLog();
 
 var app = builder.Build();
+
+app.ConfigureHealthCheck();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
