@@ -6,7 +6,8 @@ How to
 https://localhost:8081/health
 
 Expected Result:
-```{
+```
+{
   "status": "Healthy",
   "totalDuration": "00:00:00.0034000",
   "entries": {
@@ -17,10 +18,11 @@ Expected Result:
       "tags": []
     }
   }
-}```
+}
+```
 
 3. Use the API to produce data:
 ![image](https://github.com/user-attachments/assets/6101e745-af92-467b-bc32-bdb954ff8016)
 
 4. Create your own Index and Dashboard in Kibana.
-You can read more how to do it in my article: https://medium.com/@faulybsb/net-web-eb-api-with-elasticsearch-and-kibana-e26c6eba27b3
+You can read more how to do it in my article: [.NET 8 Web API with Elasticsearch and Kibana](https://medium.com/@faulybsb/net-web-eb-api-with-elasticsearch-and-kibana-e26c6eba27b3) 
